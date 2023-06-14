@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Gabriel</title>
+    <title>Portifolio</title>
+    <style>
+        body{
+            margin: 0%;
+            width: 100%;
+            background-image: linear-gradient(to left, rgb(81, 79, 85), black);   
+        }
+
+        .bloco1{
+            color: white;
+            width: 700px;
+            height: 600px;
+            position: relative;
+            left: 100px;
+            top: 100px;
+        }
+
+        #text1{
+            font-size: 50px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        #text2{
+            font-size: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        header  {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            position: absolute;
+            top: 580px;
+            left: 130px;
+            width: 600px;
+        }
+
+        header a{
+            text-decoration: none;
+            font-size: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: black;
+            width: 400px;
+            background-color: aliceblue;
+            text-align: center;
+            height: 40px;
+            border-radius: 50px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        header a:hover,
+        header a:focus {
+            background-color: chartreuse;
+            color: blue;
+
+        }
+
+        .imagem img{
+            position: absolute;
+            left: 830px;
+            bottom: -30px;
+            border: 5px solid #DCDCDC;
+            border-left-color: #808080;
+            border-radius: 50%;
+        }
+
+        .imagem {
+            animation: go-back 1s infinite alternate;
+        }
+
+        @keyframes go-back {
+            from {
+            transform: translateY(50px);
+        }
+            to {
+            transform: translateY(0);
+        }
+    }
+
+    </style>
+</head>
+<body>
+    <div class="bloco1">
+        <div><P id="text1">Melhore seu negócio digital a outro nível com um Front-end de qualidade!</P></div>
+
+        <div><P id="text2">Olá! Sou Gabriel Santos, desenvolvedor Front-end com especialidade em HTML e CSS.
+                            Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</P> </div>
+    </div>
+
+    <header>
+        <a href="https://www.instagram.com/gabriel_bsl/?next=%2F"><span>Instagram</span></a>
+        <a href="https://api.whatsapp.com/send?phone=5594999695466&text=Ol%C3%A1%20Jo%C3%A3o%20Gabriel,%20gostaria%20de%20uma%20informa%C3%A7%C3%A3o."><span>Whatsapp</span></a>
+        <a href="https://github.com/gaBRielSantos17"><span>GitHub</span></a>
+    </header>
+
+    
+        <div class="imagem"><img src="https://pbs.twimg.com/media/ExV7B8MWgAQ7QKY.jpg"></div>
+    
+    
+</body>
+</html>
